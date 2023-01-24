@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#react-entry-point {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#_dash-app-content {
+    height: 100%;
+    width: 100%;
+}
+
+#asset_graph {
+    border-radius: 10px;
+}
+
+.user-select-none.svg-container {
+    margin: 0px 8px !important;
+}
+
+#my-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.main-svg {
+    width: 99%;
+}

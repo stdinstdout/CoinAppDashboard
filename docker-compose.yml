@@ -1,0 +1,10 @@
+version: "3.9"
+   
+services:
+  web:
+    build: .
+    command: gunicorn app:server -b 0.0.0.0:80
+    ports: 
+     - 80:80
+    image: web:code
+    container_name: coin_dash_app_cnt
